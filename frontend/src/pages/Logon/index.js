@@ -35,6 +35,7 @@ export default function Logon() {
 
                 <form onSubmit={handleLogin}>
                     <h1>Faça seu logon</h1>
+                    <p>b3c2971d</p>
 
                     <input
                         type="text"
@@ -51,7 +52,7 @@ export default function Logon() {
                 </form>
             </section>
 
-        <img src={petimg} alt="Adote um pet" />
+            <img src={petimg} alt="Adote um pet" />
         </div>
     );
 }
